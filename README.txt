@@ -8,6 +8,7 @@ Covered
 
 Pending
 1. Service discovery
+2. Handle Null connection
 
 Execution
 1. Build image from the folder with dockerfile : docker build -t nayan112/platformservice .
