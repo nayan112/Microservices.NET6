@@ -1,8 +1,5 @@
-````
-```
-From: https://www.youtube.com/watch?v=DgVjEo3OGBI
-```
-````
+
+![Solution Architect](https://user-images.githubusercontent.com/13465634/165341149-fce757f5-d3bf-4d8e-ae1c-ec7a28e08e24.jpg)
 
 Covered
 1. Docker
@@ -21,7 +18,8 @@ docker build -t nayan112/platformservice .
 ```
 4. Run the image:  (disabled https redirection & swagger is enabled in dev only)
 ```
-docker run -p 8080:80 -d nayan112/platformservice
+docker run -p 8080:80 -d nayan112/platformservice![Solution Architect](https://user-images.githubusercontent.com/13465634/165341100-9b5b041d-f963-4f2b-aa22-b6994629d784.jpg)
+
 ```
 6. push the image : 
 ```
@@ -145,3 +143,15 @@ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
 kubectl -n kubernetes-dashboard delete serviceaccount admin-user
 kubectl -n kubernetes-dashboard delete clusterrolebinding admin-user
 ```
+
+
+<details><summary>Video link</summary>
+<p>
+
+  
+  ```ruby
+      https://www.youtube.com/watch?v=DgVjEo3OGBI
+  ```
+
+</p>
+</details>
