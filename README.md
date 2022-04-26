@@ -18,7 +18,7 @@ docker build -t nayan112/platformservice .
 ```
 4. Run the image:  (disabled https redirection & swagger is enabled in dev only)
 ```
-docker run -p 8080:80 -d nayan112/platformservice![Solution Architect](https://user-images.githubusercontent.com/13465634/165341100-9b5b041d-f963-4f2b-aa22-b6994629d784.jpg)
+docker run -p 8080:80 -d nayan112/platformservice
 
 ```
 6. push the image : 
