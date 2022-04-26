@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{9EC58C3F-7E5D-40AD-901B-A16E30A68277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CFA0DD1-DC67-471E-A404-BF62AF3DCADE}"
+	ProjectSection(SolutionItems) = preProject
+		Platforms-deployment.yaml = Platforms-deployment.yaml
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{99AA0793-F537-4E5A-BB07-CDEBF9737ADA}"
+	ProjectSection(SolutionItems) = preProject
+		K8S\dashboard-adminuser.yaml = K8S\dashboard-adminuser.yaml
+		K8S\dashboard.yaml = K8S\dashboard.yaml
+		K8S\Platforms-deployment.yaml = K8S\Platforms-deployment.yaml
+		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandService", "CommandService\CommandService.csproj", "{677E0858-9D35-46FF-94A7-9D5A5D8AFFA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC58C3F-7E5D-40AD-901B-A16E30A68277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC58C3F-7E5D-40AD-901B-A16E30A68277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC58C3F-7E5D-40AD-901B-A16E30A68277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC58C3F-7E5D-40AD-901B-A16E30A68277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677E0858-9D35-46FF-94A7-9D5A5D8AFFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677E0858-9D35-46FF-94A7-9D5A5D8AFFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677E0858-9D35-46FF-94A7-9D5A5D8AFFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677E0858-9D35-46FF-94A7-9D5A5D8AFFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {825F2DF6-7445-452F-891F-B51AD50A7DA4}
+	EndGlobalSection
+EndGlobal
