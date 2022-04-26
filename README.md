@@ -5,7 +5,7 @@ Covered
 1. Docker
 2. Kubernates
 3. Event Bus using RabbitMQ
-4. gPRC
+4. gRPC
 
 Pending
 1. Service discovery
